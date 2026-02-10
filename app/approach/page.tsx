@@ -43,41 +43,19 @@ export default function Approach() {
                 </div>
             </section>
 
-            {/* 3 Pillars */}
+            {/* In practice */}
             <section className="py-20 md:py-32 border-t border-neutral-200">
                 <div className="container-custom">
                     <div className="max-w-xl mx-auto text-center mb-16">
-                        <h2 className="heading-md">Three Pillars</h2>
+                        <h2 className="heading-md">In practice</h2>
                         <div className="editorial-rule my-6"></div>
                     </div>
-                    <div className="max-w-3xl mx-auto space-y-8">
-                        <div className="flex gap-6">
-                            <div className="flex-shrink-0 w-8 h-8 rounded-full bg-neutral-900 text-white flex items-center justify-center text-sm font-medium">1</div>
-                            <div>
-                                <h3 className="text-lg font-medium text-neutral-900 mb-2">Calm direction when needed</h3>
-                                <p className="text-base text-neutral-700 leading-relaxed">
-                                    Clear guidance during portraits, groups, and transitions—so you never feel uncertain.
-                                </p>
-                            </div>
-                        </div>
-                        <div className="flex gap-6">
-                            <div className="flex-shrink-0 w-8 h-8 rounded-full bg-neutral-900 text-white flex items-center justify-center text-sm font-medium">2</div>
-                            <div>
-                                <h3 className="text-lg font-medium text-neutral-900 mb-2">Invisible presence when it matters</h3>
-                                <p className="text-base text-neutral-700 leading-relaxed">
-                                    Step back for authentic moments without interruption or repositioning.
-                                </p>
-                            </div>
-                        </div>
-                        <div className="flex gap-6">
-                            <div className="flex-shrink-0 w-8 h-8 rounded-full bg-neutral-900 text-white flex items-center justify-center text-sm font-medium">3</div>
-                            <div>
-                                <h3 className="text-lg font-medium text-neutral-900 mb-2">Editorial composition</h3>
-                                <p className="text-base text-neutral-700 leading-relaxed">
-                                    Intentional framing and light—never forced or manufactured.
-                                </p>
-                            </div>
-                        </div>
+                    <div className="max-w-2xl mx-auto">
+                        <ul className="space-y-4 text-lg md:text-xl text-neutral-700 leading-loose">
+                            <li>You&apos;ll never wonder what to do.</li>
+                            <li>No interruptions during real moments.</li>
+                            <li>Light + framing that feels editorial, not posed.</li>
+                        </ul>
                     </div>
                 </div>
             </section>
@@ -162,7 +140,7 @@ export default function Approach() {
                                 alt="Guided couple portrait"
                                 fill
                                 className="object-cover"
-                                style={{ objectPosition: '50% 15%' }}
+                                style={{ objectPosition: '50% 65%' }}
                                 quality={90}
                             />
                         </div>
