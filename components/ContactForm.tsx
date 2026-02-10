@@ -11,11 +11,35 @@ export default function ContactForm() {
         message: '',
     })
 
-    const handleSubmit = (e: React.FormEvent) => {
+    const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault()
-        // Form submission logic would go here
-        console.log('Form submitted:', formData)
-        alert('Thank you for your inquiry. I will respond within 48 hours.')
+
+        try {
+            const response = await fetch('https://formspree.io/f/mwvnverl', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json'
+                },
+                body: JSON.stringify(formData)
+            })
+
+            if (response.ok) {
+                alert('Thank you for your inquiry. I will respond within 48 hours.')
+                // Clear form on success
+                setFormData({
+                    name: '',
+                    email: '',
+                    date: '',
+                    location: '',
+                    message: ''
+                })
+            } else {
+                alert('There was a problem sending your message. Please try again or email me directly at hello@elizabethholiarchuk.com')
+            }
+        } catch (error) {
+            alert('There was a problem sending your message. Please try again or email me directly at hello@elizabethholiarchuk.com')
+        }
     }
 
     const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
