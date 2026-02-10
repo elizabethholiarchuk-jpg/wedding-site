@@ -179,10 +179,15 @@ export default function JustifiedGallery({
             // Smart reorder
             const reordered = smartReorder(withDimensions, reorderWindow)
 
-            // Create justified rows
+            // Create justified rows with responsive container width
             const targetHeight = typeof window !== 'undefined' && window.innerWidth < 768 ? 220 :
                 typeof window !== 'undefined' && window.innerWidth < 1024 ? 280 : 340
-            const containerWidth = 1400
+
+            // Responsive container width with max-width constraint
+            const containerWidth = typeof window !== 'undefined'
+                ? Math.min(window.innerWidth - 48, 1200) // 48px for padding (24px each side)
+                : 1200
+
             const gap = 20
 
             const justifiedRows = createJustifiedRows(reordered, targetHeight, containerWidth, gap)

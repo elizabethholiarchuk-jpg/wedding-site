@@ -224,12 +224,14 @@
 
 /* Justified Gallery Styles */
 .justified-gallery {
-  max-width: 1400px;
+  max-width: 1200px;
   margin: 0 auto;
+  padding: 0 24px;
 }
 
 .justified-row {
   display: flex;
+  justify-content: center;
   gap: 20px;
   margin-bottom: 20px;
 }
