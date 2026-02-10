@@ -43,6 +43,45 @@ export default function Approach() {
                 </div>
             </section>
 
+            {/* 3 Pillars */}
+            <section className="py-20 md:py-32 border-t border-neutral-200">
+                <div className="container-custom">
+                    <div className="max-w-xl mx-auto text-center mb-16">
+                        <h2 className="heading-md">Three Pillars</h2>
+                        <div className="editorial-rule my-6"></div>
+                    </div>
+                    <div className="max-w-3xl mx-auto space-y-8">
+                        <div className="flex gap-6">
+                            <div className="flex-shrink-0 w-8 h-8 rounded-full bg-neutral-900 text-white flex items-center justify-center text-sm font-medium">1</div>
+                            <div>
+                                <h3 className="text-lg font-medium text-neutral-900 mb-2">Calm direction when needed</h3>
+                                <p className="text-base text-neutral-700 leading-relaxed">
+                                    Clear guidance during portraits, groups, and transitions—so you never feel uncertain.
+                                </p>
+                            </div>
+                        </div>
+                        <div className="flex gap-6">
+                            <div className="flex-shrink-0 w-8 h-8 rounded-full bg-neutral-900 text-white flex items-center justify-center text-sm font-medium">2</div>
+                            <div>
+                                <h3 className="text-lg font-medium text-neutral-900 mb-2">Invisible presence when it matters</h3>
+                                <p className="text-base text-neutral-700 leading-relaxed">
+                                    Step back for authentic moments without interruption or repositioning.
+                                </p>
+                            </div>
+                        </div>
+                        <div className="flex gap-6">
+                            <div className="flex-shrink-0 w-8 h-8 rounded-full bg-neutral-900 text-white flex items-center justify-center text-sm font-medium">3</div>
+                            <div>
+                                <h3 className="text-lg font-medium text-neutral-900 mb-2">Editorial composition</h3>
+                                <p className="text-base text-neutral-700 leading-relaxed">
+                                    Intentional framing and light—never forced or manufactured.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             {/* How I Work */}
             <section className="py-20 md:py-32 border-t border-neutral-200">
                 <div className="container-custom">
@@ -50,12 +89,12 @@ export default function Approach() {
                         <h2 className="heading-md">How I Work</h2>
                         <div className="editorial-rule my-6"></div>
                     </div>
-                    <div className="max-w-2xl mx-auto space-y-10 text-lg md:text-xl text-neutral-700 leading-loose">
+                    <div className="max-w-2xl mx-auto space-y-8 text-lg md:text-xl text-neutral-700 leading-loose">
                         <p>
-                            I guide you when you need it—during portraits, group photos, moments when the day stalls or when people feel uncertain. I give clear direction that helps you relax, not instructions that make you feel managed.
+                            I guide you during portraits, group photos, and moments when the day stalls. Clear direction that helps you relax, not instructions that make you feel managed.
                         </p>
                         <p>
-                            When the moment doesn&apos;t need me, I step back. I read the room, adapt to what&apos;s happening, and know when my presence should fade into the background.
+                            When the moment doesn&apos;t need me, I step back. I read the room and know when my presence should fade into the background.
                         </p>
                         <p className="text-neutral-900 font-serif italic text-2xl md:text-3xl leading-relaxed pt-4">
                             The result is photography that feels like you—comfortable, honest, and never forced.
@@ -119,7 +158,7 @@ export default function Approach() {
                     <div className="max-w-4xl mx-auto">
                         <div className="relative w-full h-[400px] md:h-[600px]">
                             <Image
-                                src="/images/735A4009.jpg"
+                                src="/w02-berlin-church/14.jpg"
                                 alt="Guided couple portrait"
                                 fill
                                 className="object-cover"
@@ -138,12 +177,12 @@ export default function Approach() {
                         <h2 className="heading-md">When I Step Back</h2>
                         <div className="editorial-rule my-6"></div>
                     </div>
-                    <div className="max-w-2xl mx-auto space-y-10 text-lg md:text-xl text-neutral-700 leading-loose">
+                    <div className="max-w-2xl mx-auto space-y-8 text-lg md:text-xl text-neutral-700 leading-loose">
                         <p>
                             I don&apos;t interrupt moments that are already unfolding naturally.
                         </p>
                         <p>
-                            When you&apos;re with your partner during golden hour and the light is perfect, I&apos;m not repositioning you every thirty seconds. When your family is laughing together, I&apos;m not stopping them to recreate it. When a quiet gesture happens between you and someone you love, I&apos;m not asking you to do it again.
+                            When you&apos;re with your partner during golden hour, I&apos;m not repositioning you every thirty seconds. When your family is laughing together, I&apos;m not stopping them to recreate it.
                         </p>
                         <p>
                             I work with what&apos;s real. I frame it well, I wait for the right light, I anticipate the moment—but I don&apos;t manufacture it.
@@ -161,7 +200,7 @@ export default function Approach() {
                     <div className="max-w-4xl mx-auto">
                         <div className="relative w-full h-[400px] md:h-[600px]">
                             <Image
-                                src="/images/735A4065.jpg"
+                                src="/w01-hamburg-civil/10.jpg"
                                 alt="Natural wedding moment"
                                 fill
                                 className="object-cover"
@@ -180,15 +219,18 @@ export default function Approach() {
                         <h2 className="heading-md">What This Means for You</h2>
                         <div className="editorial-rule my-6"></div>
                     </div>
-                    <div className="max-w-2xl mx-auto space-y-10 text-lg md:text-xl text-neutral-700 leading-loose">
+                    <div className="max-w-2xl mx-auto space-y-8 text-lg md:text-xl text-neutral-700 leading-loose">
                         <p>
-                            You will feel taken care of. You won&apos;t be left guessing what to do or how to act. You won&apos;t feel stiff, awkward, or like you&apos;re performing.
+                            You will feel taken care of. You won&apos;t be left guessing what to do or how to act.
+                        </p>
+                        <p>
+                            You won&apos;t feel stiff, awkward, or like you&apos;re performing.
                         </p>
                         <p>
                             The photos will feel true to who you are—not because I disappeared, but because I knew when to help and when to let the moment be.
                         </p>
                         <p className="text-neutral-900 font-serif italic text-2xl md:text-3xl leading-relaxed pt-4">
-                            This is editorial wedding photography with intention. It&apos;s guided when it needs to be. It&apos;s natural when it should be. And it&apos;s always rooted in making you feel comfortable.
+                            Editorial wedding photography with intention. Guided when it needs to be. Natural when it should be.
                         </p>
                     </div>
                 </div>
@@ -200,7 +242,7 @@ export default function Approach() {
                     <div className="max-w-4xl mx-auto">
                         <div className="relative w-full h-[400px] md:h-[600px]">
                             <Image
-                                src="/images/735A4705.jpg"
+                                src="/w02-berlin-church/08.jpg"
                                 alt="Wedding photography with intention"
                                 fill
                                 className="object-cover"
@@ -217,7 +259,7 @@ export default function Approach() {
                 <div className="container-custom">
                     <div className="max-w-xl mx-auto text-center">
                         <p className="text-2xl md:text-3xl text-neutral-700 mb-12 leading-relaxed font-light">
-                            If this feels like the right approach for you, I'd be glad to hear about your wedding.
+                            If this feels like the right approach for you, I&apos;d be glad to hear about your wedding.
                         </p>
                         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                             <Link href="/contact" className="btn-primary">
