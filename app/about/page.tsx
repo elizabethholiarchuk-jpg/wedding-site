@@ -36,10 +36,10 @@ export default function About() {
                     </div>
                     <div className="max-w-2xl mx-auto space-y-10 text-lg md:text-xl text-neutral-700 leading-loose">
                         <p>
-                            I'm Elizabeth, a wedding photographer based in Hamburg, working across Europe.
+                            I&apos;m Elizabeth, a wedding photographer based in Hamburg, working across Europe.
                         </p>
                         <p>
-                            I've been working as a professional photographer for five years, including corporate and event photography. Wedding photography has become my focus because it combines intentional composition with real human moments.
+                            I&apos;ve been working as a professional photographer for five years, including corporate and event photography. Wedding photography has become my focus because it combines intentional composition with real human moments.
                         </p>
                         <p>
                             I approach weddings with calm presence and attention. I guide you when you need it—during portraits, group photos, moments when the day stalls. I notice when moments are unfolding naturally and step back.
@@ -77,7 +77,7 @@ export default function About() {
                 <div className="container-custom">
                     <div className="max-w-xl mx-auto text-center">
                         <p className="text-2xl md:text-3xl text-neutral-700 mb-12 leading-relaxed font-light">
-                            If you'd like to work together, I'd be glad to hear about your day.
+                            If you&apos;d like to work together, I&apos;d be glad to hear about your day.
                         </p>
                         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                             <Link href="/contact" className="btn-primary">

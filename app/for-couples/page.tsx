@@ -28,7 +28,7 @@ export default function ForCouples() {
             <section className="py-20 md:py-32 border-t border-neutral-200">
                 <div className="container-custom">
                     <div className="max-w-xl mx-auto text-center mb-16">
-                        <h2 className="heading-md">We're Likely a Good Fit If</h2>
+                        <h2 className="heading-md">We&apos;re Likely a Good Fit If</h2>
                         <div className="editorial-rule my-6"></div>
                     </div>
                     <div className="max-w-2xl mx-auto space-y-10 text-lg md:text-xl text-neutral-700 leading-loose">
@@ -36,13 +36,13 @@ export default function ForCouples() {
                             You value photography that feels true to who you are, not performative or overly styled.
                         </p>
                         <p>
-                            You want guidance when you need it—during portraits, group photos, transitions—but don't want to feel micromanaged.
+                            You want guidance when you need it—during portraits, group photos, transitions—but don&apos;t want to feel micromanaged.
                         </p>
                         <p>
                             You appreciate intentional composition and timeless aesthetics over trendy effects.
                         </p>
                         <p>
-                            You're planning a wedding in Europe (or are willing to bring me to your destination).
+                            You&apos;re planning a wedding in Europe (or are willing to bring me to your destination).
                         </p>
                         <p className="text-neutral-900 font-serif italic text-2xl md:text-3xl leading-relaxed pt-4">
                             You understand that great photography requires trust, collaboration, and a photographer who knows when to step in and when to step back.
@@ -140,13 +140,13 @@ export default function ForCouples() {
                             <strong>Initial conversation.</strong> We'll discuss your wedding, your vision, and whether we're a good fit. This can be via email or video call.
                         </p>
                         <p>
-                            <strong>Planning support.</strong> I'll help you think through timeline, lighting, and logistics to ensure your day flows smoothly.
+                            <strong>Planning support.</strong> I&apos;ll help you think through timeline, lighting, and logistics to ensure your day flows smoothly.
                         </p>
                         <p>
-                            <strong>On the day.</strong> I'll guide you when you need it, step back when you don't, and make sure you feel comfortable and taken care of.
+                            <strong>On the day.</strong> I&apos;ll guide you when you need it, step back when you don&apos;t, and make sure you feel comfortable and taken care of.
                         </p>
                         <p>
-                            <strong>Delivery.</strong> You'll receive a curated gallery of edited images, typically within 6-8 weeks. Collections are shared after we start a conversation.
+                            <strong>Delivery.</strong> You&apos;ll receive a curated gallery of edited images, typically within 6-8 weeks. Collections are shared after we start a conversation.
                         </p>
                     </div>
                 </div>
@@ -241,7 +241,7 @@ export default function ForCouples() {
                         <div>
                             <h3 className="text-xl font-medium text-neutral-900 mb-4">Do you travel?</h3>
                             <p className="text-lg text-neutral-700 leading-relaxed">
-                                Yes. I'm based in Hamburg and work throughout Europe and beyond. Travel costs are included in packages for weddings outside Hamburg.
+                                Yes. I&apos;m based in Hamburg and work throughout Europe and beyond. Travel costs are included in packages for weddings outside Hamburg.
                             </p>
                         </div>
                     </div>
@@ -253,7 +253,7 @@ export default function ForCouples() {
                 <div className="container-custom">
                     <div className="max-w-xl mx-auto text-center">
                         <p className="text-2xl md:text-3xl text-neutral-700 mb-12 leading-relaxed font-light">
-                            If this sounds like the right fit, I'd be glad to hear about your wedding.
+                            If this sounds like the right fit, I&apos;d be glad to hear about your wedding.
                         </p>
                         <Link href="/contact" className="btn-primary">
                             Start a Conversation

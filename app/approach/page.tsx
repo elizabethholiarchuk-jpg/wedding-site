@@ -18,7 +18,7 @@ export default function Approach() {
                         <h1 className="heading-xl">Approach</h1>
                         <div className="editorial-rule my-8"></div>
                         <p className="text-xl md:text-2xl text-neutral-600 leading-relaxed">
-                            Most people don't know how to act naturally in front of a camera. My role is to make sure you never have to figure it out on your own.
+                            Most people don&apos;t know how to act naturally in front of a camera. My role is to make sure you never have to figure it out on your own.
                         </p>
                         <p className="text-sm italic text-neutral-500 mt-6">
                             Guided when needed. Invisible when not.
@@ -55,7 +55,7 @@ export default function Approach() {
                             I guide you when you need it—during portraits, group photos, moments when the day stalls or when people feel uncertain. I give clear direction that helps you relax, not instructions that make you feel managed.
                         </p>
                         <p>
-                            When the moment doesn't need me, I step back. I read the room, adapt to what's happening, and know when my presence should fade into the background.
+                            When the moment doesn&apos;t need me, I step back. I read the room, adapt to what&apos;s happening, and know when my presence should fade into the background.
                         </p>
                         <p className="text-neutral-900 font-serif italic text-2xl md:text-3xl leading-relaxed pt-4">
                             The result is photography that feels like you—comfortable, honest, and never forced.
@@ -79,7 +79,7 @@ export default function Approach() {
                         <div>
                             <h3 className="text-base font-medium text-neutral-900 mb-4 tracking-wide uppercase">Portraits</h3>
                             <p className="text-base md:text-lg text-neutral-700 leading-relaxed">
-                                I position you in flattering light, suggest natural movement, and help you feel at ease. You won't be left wondering what to do with your hands or where to look.
+                                I position you in flattering light, suggest natural movement, and help you feel at ease. You won&apos;t be left wondering what to do with your hands or where to look.
                             </p>
                         </div>
 
@@ -100,14 +100,14 @@ export default function Approach() {
                         <div>
                             <h3 className="text-base font-medium text-neutral-900 mb-4 tracking-wide uppercase">Transitions</h3>
                             <p className="text-base md:text-lg text-neutral-700 leading-relaxed">
-                                Between ceremony and reception, during family photos, when guests don't know what's expected—I provide clarity so you can stay present.
+                                Between ceremony and reception, during family photos, when guests don&apos;t know what&apos;s expected—I provide clarity so you can stay present.
                             </p>
                         </div>
                     </div>
 
                     <div className="max-w-xl mx-auto text-center mt-20">
                         <p className="text-lg text-neutral-700 leading-relaxed italic">
-                            This is not about control. It's about removing uncertainty so you can be yourself.
+                            This is not about control. It&apos;s about removing uncertainty so you can be yourself.
                         </p>
                     </div>
                 </div>
@@ -140,16 +140,16 @@ export default function Approach() {
                     </div>
                     <div className="max-w-2xl mx-auto space-y-10 text-lg md:text-xl text-neutral-700 leading-loose">
                         <p>
-                            I don't interrupt moments that are already unfolding naturally.
+                            I don&apos;t interrupt moments that are already unfolding naturally.
                         </p>
                         <p>
-                            When you're with your partner during golden hour and the light is perfect, I'm not repositioning you every thirty seconds. When your family is laughing together, I'm not stopping them to recreate it. When a quiet gesture happens between you and someone you love, I'm not asking you to do it again.
+                            When you&apos;re with your partner during golden hour and the light is perfect, I&apos;m not repositioning you every thirty seconds. When your family is laughing together, I&apos;m not stopping them to recreate it. When a quiet gesture happens between you and someone you love, I&apos;m not asking you to do it again.
                         </p>
                         <p>
-                            I work with what's real. I frame it well, I wait for the right light, I anticipate the moment—but I don't manufacture it.
+                            I work with what&apos;s real. I frame it well, I wait for the right light, I anticipate the moment—but I don&apos;t manufacture it.
                         </p>
                         <p className="text-neutral-900 font-medium pt-4">
-                            You'll notice me when you need direction. You won't notice me when you don't.
+                            You&apos;ll notice me when you need direction. You won&apos;t notice me when you don&apos;t.
                         </p>
                     </div>
                 </div>
@@ -182,13 +182,13 @@ export default function Approach() {
                     </div>
                     <div className="max-w-2xl mx-auto space-y-10 text-lg md:text-xl text-neutral-700 leading-loose">
                         <p>
-                            You will feel taken care of. You won't be left guessing what to do or how to act. You won't feel stiff, awkward, or like you're performing.
+                            You will feel taken care of. You won&apos;t be left guessing what to do or how to act. You won&apos;t feel stiff, awkward, or like you&apos;re performing.
                         </p>
                         <p>
                             The photos will feel true to who you are—not because I disappeared, but because I knew when to help and when to let the moment be.
                         </p>
                         <p className="text-neutral-900 font-serif italic text-2xl md:text-3xl leading-relaxed pt-4">
-                            This is editorial wedding photography with intention. It's guided when it needs to be. It's natural when it should be. And it's always rooted in making you feel comfortable.
+                            This is editorial wedding photography with intention. It&apos;s guided when it needs to be. It&apos;s natural when it should be. And it&apos;s always rooted in making you feel comfortable.
                         </p>
                     </div>
                 </div>

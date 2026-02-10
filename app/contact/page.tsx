@@ -16,7 +16,7 @@ export default function Contact() {
                         <h1 className="heading-xl">Get in Touch</h1>
                         <div className="editorial-rule my-8"></div>
                         <p className="text-xl md:text-2xl text-neutral-600 leading-relaxed">
-                            I'd be glad to hear about your wedding. Share some details below, and I'll respond within 48 hours.
+                            I&apos;d be glad to hear about your wedding. Share some details below, and I&apos;ll respond within 48 hours.
                         </p>
                     </div>
                 </div>
@@ -38,10 +38,10 @@ export default function Contact() {
                     </div>
                     <div className="max-w-2xl mx-auto space-y-10 text-lg text-neutral-700 leading-relaxed">
                         <p>
-                            After you submit your inquiry, I'll review your information and respond within 48 hours (typically sooner).
+                            After you submit your inquiry, I&apos;ll review your information and respond within 48 hours (typically sooner).
                         </p>
                         <p>
-                            If it seems like we might be a good fit, I'll send you detailed information about my process, pricing, and availability. We can then schedule a call or video chat to discuss your wedding in more detail.
+                            If it seems like we might be a good fit, I&apos;ll send you detailed information about my process, pricing, and availability. We can then schedule a call or video chat to discuss your wedding in more detail.
                         </p>
                     </div>
 

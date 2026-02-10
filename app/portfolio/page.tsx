@@ -71,7 +71,7 @@ export default function Portfolio() {
                 <div className="container-custom text-center">
                     <div className="max-w-xl mx-auto">
                         <p className="text-2xl md:text-3xl text-neutral-700 mb-12 leading-relaxed font-light">
-                            If you'd like to discuss your wedding, I'd be glad to hear from you.
+                            If you&apos;d like to discuss your wedding, I&apos;d be glad to hear from you.
                         </p>
                         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                             <Link href="/contact" className="btn-primary">

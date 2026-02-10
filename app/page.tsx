@@ -90,7 +90,7 @@ export default function Home() {
                     </div>
                     <div className="max-w-2xl mx-auto space-y-10 text-lg md:text-xl text-neutral-700 leading-loose">
                         <p>
-                            Most people don't know how to act naturally in front of a camera. That's normal. My role is to make sure you never have to figure it out on your own.
+                            Most people don&apos;t know how to act naturally in front of a camera. That&apos;s normal. My role is to make sure you never have to figure it out on your own.
                         </p>
                         <p>
                             I guide you when you need it—during portraits, group photos, moments when the day stalls or when people feel uncertain. I give clear direction that helps you relax, not instructions that make you feel managed.
