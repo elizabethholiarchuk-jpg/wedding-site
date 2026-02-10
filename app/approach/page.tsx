@@ -175,8 +175,8 @@ export default function Approach() {
             {/* Editorial Image 2 */}
             <section className="py-16 md:py-20 border-t border-neutral-200">
                 <div className="container-custom">
-                    <div className="max-w-4xl mx-auto">
-                        <div className="relative w-full h-[400px] md:h-[600px]">
+                    <div className="max-w-3xl mx-auto px-6">
+                        <div className="relative w-full aspect-[4/5] max-h-[70vh]">
                             <Image
                                 src="/w01-hamburg-civil/10.jpg"
                                 alt="Natural wedding moment"
@@ -184,6 +184,7 @@ export default function Approach() {
                                 className="object-cover"
                                 style={{ objectPosition: '50% 15%' }}
                                 quality={90}
+                                sizes="(max-width: 768px) 100vw, (max-width: 1024px) 80vw, 60vw"
                             />
                         </div>
                     </div>
