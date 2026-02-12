@@ -68,7 +68,7 @@ export default function ForCouples() {
                     <div className="max-w-4xl mx-auto">
                         <div className="relative w-full h-[400px] md:h-[600px]">
                             <Image
-                                src="/w02-berlin-church/14.jpg"
+                                src="/w01-hamburg-civil/16.jpg"
                                 alt="Couple portrait"
                                 fill
                                 className="object-cover"
@@ -158,7 +158,7 @@ export default function ForCouples() {
                     <div className="max-w-4xl mx-auto">
                         <div className="relative w-full h-[400px] md:h-[600px]">
                             <Image
-                                src="/w01-hamburg-civil/08.jpg"
+                                src="/w01-hamburg-civil/11.jpg"
                                 alt="Candid wedding moment"
                                 fill
                                 className="object-cover"
@@ -194,7 +194,7 @@ export default function ForCouples() {
                     <div className="max-w-4xl mx-auto">
                         <div className="relative w-full h-[400px] md:h-[600px]">
                             <Image
-                                src="/w01-hamburg-civil/12.jpg"
+                                src="/w03-forest-party/11.jpg"
                                 alt="Couple together"
                                 fill
                                 className="object-cover"
@@ -206,23 +206,7 @@ export default function ForCouples() {
                 </div>
             </section>
 
-            {/* Editorial Image 6 */}
-            <section className="py-16 md:py-20 border-t border-neutral-200">
-                <div className="container-custom">
-                    <div className="max-w-4xl mx-auto">
-                        <div className="relative w-full h-[400px] md:h-[600px]">
-                            <Image
-                                src="/w02-berlin-church/16.jpg"
-                                alt="Wedding celebration"
-                                fill
-                                className="object-cover"
-                                style={{ objectPosition: '50% 15%' }}
-                                quality={90}
-                            />
-                        </div>
-                    </div>
-                </div>
-            </section>
+
 
             {/* FAQ */}
             <section className="py-20 md:py-32 border-t border-neutral-200">
