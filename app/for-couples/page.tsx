@@ -68,7 +68,7 @@ export default function ForCouples() {
                     <div className="max-w-4xl mx-auto">
                         <div className="relative w-full h-[400px] md:h-[600px]">
                             <Image
-                                src="/images/735A5740.jpg"
+                                src="/w02-berlin-church/14.jpg"
                                 alt="Couple portrait"
                                 fill
                                 className="object-cover"
@@ -116,7 +116,7 @@ export default function ForCouples() {
                     <div className="max-w-4xl mx-auto">
                         <div className="relative w-full h-[400px] md:h-[600px]">
                             <Image
-                                src="/images/735A5893.jpg"
+                                src="/w02-berlin-church/05.jpg"
                                 alt="Wedding ceremony"
                                 fill
                                 className="object-cover"
@@ -158,7 +158,7 @@ export default function ForCouples() {
                     <div className="max-w-4xl mx-auto">
                         <div className="relative w-full h-[400px] md:h-[600px]">
                             <Image
-                                src="/images/735A6091.jpg"
+                                src="/w01-hamburg-civil/08.jpg"
                                 alt="Candid wedding moment"
                                 fill
                                 className="object-cover"
@@ -176,7 +176,7 @@ export default function ForCouples() {
                     <div className="max-w-4xl mx-auto">
                         <div className="relative w-full h-[400px] md:h-[600px]">
                             <Image
-                                src="/images/735A5000.jpg"
+                                src="/w03-forest-party/06.jpg"
                                 alt="Wedding details"
                                 fill
                                 className="object-cover"
@@ -194,7 +194,7 @@ export default function ForCouples() {
                     <div className="max-w-4xl mx-auto">
                         <div className="relative w-full h-[400px] md:h-[600px]">
                             <Image
-                                src="/images/735A5045.jpg"
+                                src="/w01-hamburg-civil/12.jpg"
                                 alt="Couple together"
                                 fill
                                 className="object-cover"
@@ -212,7 +212,7 @@ export default function ForCouples() {
                     <div className="max-w-4xl mx-auto">
                         <div className="relative w-full h-[400px] md:h-[600px]">
                             <Image
-                                src="/images/735A4121.jpg"
+                                src="/w02-berlin-church/16.jpg"
                                 alt="Wedding celebration"
                                 fill
                                 className="object-cover"
