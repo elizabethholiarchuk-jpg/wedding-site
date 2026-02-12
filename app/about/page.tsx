@@ -12,107 +12,78 @@ export default function About() {
         <div className="min-h-screen">
 
             {/* Header */}
-            <section className="pt-32 pb-20">
+            <section className="pt-32 pb-24 md:pb-32">
                 <div className="container-custom">
-                    <div className="max-w-xl mx-auto text-center">
-                        <h1 className="heading-xl">About</h1>
+                    <div className="max-w-3xl mx-auto text-center">
+                        <h1 className="heading-xl mb-8">About</h1>
                         <div className="editorial-rule my-8"></div>
-                        <p className="text-xl md:text-2xl text-neutral-600 leading-relaxed">
-                            Wedding photographer based in Hamburg, working across Europe.
+                        <h2 className="text-3xl md:text-4xl font-serif font-light text-neutral-900 mb-6 leading-tight">
+                            Calm presence. Editorial eyes.
+                        </h2>
+                        <p className="text-lg md:text-xl text-neutral-600 mb-8">
+                            Based in Hamburg. Available across Europe.
                         </p>
-                        <p className="text-sm italic text-neutral-500 mt-6">
-                            Guided when needed. Observed when it matters.
+                        <p className="text-lg md:text-xl text-neutral-700 leading-relaxed max-w-2xl mx-auto">
+                            I work with couples who want photographs that feel honest, composed, and quietly powerful. Clear direction when needed. Space when it matters. Images built to age well.
                         </p>
                     </div>
                 </div>
             </section>
 
             {/* Behind the camera */}
-            <section className="py-20 md:py-32 border-t border-neutral-200">
+            <section className="py-24 md:py-40 border-t border-neutral-200">
                 <div className="container-custom">
-                    <div className="max-w-xl mx-auto text-center mb-16">
-                        <h2 className="heading-md">Behind the camera</h2>
-                        <div className="editorial-rule my-6"></div>
-                    </div>
-                    <div className="max-w-5xl mx-auto px-6">
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
-                            {/* Image 1 */}
-                            <div>
-                                <div className="relative w-full aspect-[3/4] overflow-hidden border border-black/10 rounded-sm">
+                    <div className="max-w-6xl mx-auto">
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-16 md:gap-20 items-center">
+                            {/* Text Block */}
+                            <div className="order-2 md:order-1">
+                                <h2 className="heading-md mb-8">Behind the camera</h2>
+                                <div className="space-y-6 text-base md:text-lg text-neutral-700 leading-relaxed">
+                                    <ul className="space-y-3">
+                                        <li>Direction that feels natural, not forced</li>
+                                        <li>Awareness of light, timing, and composition</li>
+                                        <li>Presence without intrusion</li>
+                                    </ul>
+                                    <p className="pt-4">
+                                        Working with me feels calm. You won&apos;t be left guessing what to do, but you also won&apos;t feel micromanaged. I guide when it helps, step back when it doesn&apos;t, and make sure you feel taken care of throughout your day.
+                                    </p>
+                                </div>
+                            </div>
+                            {/* Image */}
+                            <div className="order-1 md:order-2">
+                                <div className="relative w-full aspect-[3/4] max-w-md mx-auto overflow-hidden">
                                     <Image
                                         src="/images/about/about-01.jpg"
-                                        alt="Elizabeth Holiarchuk, mirror portrait holding a camera."
+                                        alt="Elizabeth Holiarchuk with camera"
                                         fill
                                         className="object-cover"
                                         quality={90}
                                         sizes="(max-width: 768px) 100vw, 50vw"
+                                        priority
                                     />
                                 </div>
-                                <p className="text-sm text-neutral-500 mt-4 text-center italic">
-                                    Working between calm direction and real moments.
-                                </p>
-                            </div>
-                            {/* Image 2 */}
-                            <div>
-                                <div className="relative w-full aspect-[3/4] overflow-hidden border border-black/10 rounded-sm">
-                                    <Image
-                                        src="/images/about/about-02.jpg"
-                                        alt="Elizabeth Holiarchuk photographing outdoors in natural light."
-                                        fill
-                                        className="object-cover"
-                                        quality={90}
-                                        sizes="(max-width: 768px) 100vw, 50vw"
-                                    />
-                                </div>
-                                <p className="text-sm text-neutral-500 mt-4 text-center italic">
-                                    On location — watching for light, timing, and honesty.
-                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
 
-            {/* Bio */}
-            <section className="py-20 md:py-32 border-t border-neutral-200">
-                <div className="container-custom">
-                    <div className="max-w-xl mx-auto text-center mb-16">
-                        <h2 className="heading-md">Background</h2>
-                        <div className="editorial-rule my-6"></div>
-                    </div>
-                    <div className="max-w-2xl mx-auto space-y-10 text-lg md:text-xl text-neutral-700 leading-loose">
-                        <p>
-                            I&apos;m Elizabeth, a wedding photographer based in Hamburg, working across Europe.
-                        </p>
-                        <p>
-                            I&apos;ve been working as a professional photographer for five years, including corporate and event photography. Wedding photography has become my focus because it combines intentional composition with real human moments.
-                        </p>
-                        <p>
-                            I approach weddings with calm presence and attention. I guide you when you need it—during portraits, group photos, moments when the day stalls. I notice when moments are unfolding naturally and step back.
-                        </p>
-                        <p className="text-neutral-900 font-serif italic text-2xl md:text-3xl leading-relaxed pt-4">
-                            I work with couples who value photography that feels true to who they are. People who want images that will age well, not chase trends.
-                        </p>
-                    </div>
-                </div>
-            </section>
-
             {/* Experience */}
-            <section className="py-20 md:py-32 border-t border-neutral-200">
+            <section className="py-24 md:py-32 border-t border-neutral-200">
                 <div className="container-custom">
                     <div className="max-w-xl mx-auto text-center mb-16">
                         <h2 className="heading-md">Experience</h2>
                         <div className="editorial-rule my-6"></div>
                     </div>
-                    <div className="max-w-2xl mx-auto space-y-10 text-lg text-neutral-700 leading-relaxed">
+                    <div className="max-w-2xl mx-auto space-y-6 text-lg text-neutral-700">
                         <p>
-                            <strong>5 years</strong> of professional photography, including corporate and event work
+                            <strong>Background:</strong> 5 years professional photography (events + portrait work).
                         </p>
                         <p>
-                            <strong>Based in</strong> Hamburg, available for travel throughout Europe and beyond
+                            <strong>Base:</strong> Hamburg, traveling across Europe.
                         </p>
                         <p>
-                            <strong>Approach</strong> Intentional composition, attentive presence, professional guidance
+                            <strong>Approach:</strong> Intentional composition + calm direction.
                         </p>
                     </div>
                 </div>
@@ -121,18 +92,16 @@ export default function About() {
             {/* CTA */}
             <section className="py-24 md:py-32 border-t border-neutral-200">
                 <div className="container-custom">
-                    <div className="max-w-xl mx-auto text-center">
-                        <p className="text-2xl md:text-3xl text-neutral-700 mb-12 leading-relaxed font-light">
-                            If you&apos;d like to work together, I&apos;d be glad to hear about your day.
+                    <div className="max-w-2xl mx-auto text-center">
+                        <h2 className="text-2xl md:text-3xl font-serif font-light text-neutral-900 mb-6">
+                            If it feels like a fit
+                        </h2>
+                        <p className="text-lg text-neutral-700 leading-relaxed mb-8">
+                            Send a short note with your date and location. I&apos;ll reply within 48 hours with availability and next steps.
                         </p>
-                        <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-                            <Link href="/contact" className="btn-primary">
-                                Tell Me About Your Day
-                            </Link>
-                            <Link href="/for-couples" className="btn-secondary">
-                                What to Expect
-                            </Link>
-                        </div>
+                        <Link href="/contact" className="btn-primary">
+                            Inquire
+                        </Link>
                     </div>
                 </div>
             </section>
