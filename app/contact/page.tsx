@@ -50,10 +50,10 @@ export default function Contact() {
                             Prefer to email directly?
                         </p>
                         <a
-                            href="mailto:hello@lizaholiarchu.com"
+                            href="mailto:hello@lizaholiarchuk.com"
                             className="text-lg text-neutral-900 link-underline"
                         >
-                            hello@lizaholiarchu.com
+                            hello@lizaholiarchuk.com
                         </a>
                     </div>
                 </div>

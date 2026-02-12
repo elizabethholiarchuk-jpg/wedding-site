@@ -48,10 +48,10 @@ export default function Footer() {
                         </h4>
                         <div className="flex flex-col gap-2">
                             <a
-                                href="mailto:hello@lizaholiarchu.com"
+                                href="mailto:hello@lizaholiarchuk.com"
                                 className="body-sm text-neutral-600 hover:text-neutral-900 transition-colors"
                             >
-                                hello@lizaholiarchu.com
+                                hello@lizaholiarchuk.com
                             </a>
                             <a
                                 href="https://instagram.com/elizabethholiarchuk"

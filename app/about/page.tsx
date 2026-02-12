@@ -12,14 +12,14 @@ export default function About() {
         <div className="min-h-screen">
 
             {/* Hero */}
-            <section className="pt-24 md:pt-32 pb-16 md:pb-20">
+            <section className="pt-20 md:pt-28 pb-12 md:pb-16">
                 <div className="container-custom">
-                    <div className="max-w-2xl mx-auto text-center">
-                        <h1 className="heading-xl mb-10">About</h1>
-                        <p className="text-lg md:text-xl text-neutral-600 mb-10 leading-relaxed">
+                    <div className="max-w-3xl mx-auto text-center px-6">
+                        <h1 className="heading-xl mb-8">About</h1>
+                        <p className="text-lg md:text-xl text-neutral-600 mb-8 leading-relaxed">
                             Wedding photographer based in Hamburg, working across Europe.
                         </p>
-                        <div className="max-w-xl mx-auto space-y-6 text-lg md:text-xl text-neutral-700 leading-relaxed">
+                        <div className="max-w-2xl mx-auto space-y-5 text-lg md:text-xl text-neutral-700 leading-relaxed">
                             <p>
                                 I&apos;m Elizabeth. For five years, I&apos;ve photographed people in environments where timing, energy, and trust matter. Weddings are no different.
                             </p>
@@ -27,6 +27,7 @@ export default function About() {
                                 I don&apos;t chase trends. I pay attention — to people, to space, to what&apos;s actually happening.
                             </p>
                         </div>
+                        <div className="w-full max-w-sm mx-auto h-px bg-neutral-200 mt-12"></div>
                     </div>
                 </div>
             </section>
@@ -99,7 +100,7 @@ export default function About() {
                             Inquire
                         </Link>
                         <p className="text-sm text-neutral-500 mt-6">
-                            Or email: <a href="mailto:hello@lizaholiarchu.com" className="underline hover:text-neutral-900 transition-colors">hello@lizaholiarchu.com</a>
+                            Or email: <a href="mailto:hello@lizaholiarchuk.com" className="underline hover:text-neutral-900 transition-colors">hello@lizaholiarchuk.com</a>
                         </p>
                     </div>
                 </div>
