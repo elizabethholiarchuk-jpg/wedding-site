@@ -27,6 +27,52 @@ export default function About() {
                 </div>
             </section>
 
+            {/* Behind the camera */}
+            <section className="py-20 md:py-32 border-t border-neutral-200">
+                <div className="container-custom">
+                    <div className="max-w-xl mx-auto text-center mb-16">
+                        <h2 className="heading-md">Behind the camera</h2>
+                        <div className="editorial-rule my-6"></div>
+                    </div>
+                    <div className="max-w-5xl mx-auto px-6">
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+                            {/* Image 1 */}
+                            <div>
+                                <div className="relative w-full aspect-[3/4] overflow-hidden border border-black/10 rounded-sm">
+                                    <Image
+                                        src="/images/about/about-01.jpg"
+                                        alt="Elizabeth Holiarchuk, mirror portrait holding a camera."
+                                        fill
+                                        className="object-cover"
+                                        quality={90}
+                                        sizes="(max-width: 768px) 100vw, 50vw"
+                                    />
+                                </div>
+                                <p className="text-sm text-neutral-500 mt-4 text-center italic">
+                                    Working between calm direction and real moments.
+                                </p>
+                            </div>
+                            {/* Image 2 */}
+                            <div>
+                                <div className="relative w-full aspect-[3/4] overflow-hidden border border-black/10 rounded-sm">
+                                    <Image
+                                        src="/images/about/about-02.jpg"
+                                        alt="Elizabeth Holiarchuk photographing outdoors in natural light."
+                                        fill
+                                        className="object-cover"
+                                        quality={90}
+                                        sizes="(max-width: 768px) 100vw, 50vw"
+                                    />
+                                </div>
+                                <p className="text-sm text-neutral-500 mt-4 text-center italic">
+                                    On location — watching for light, timing, and honesty.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             {/* Bio */}
             <section className="py-20 md:py-32 border-t border-neutral-200">
                 <div className="container-custom">
