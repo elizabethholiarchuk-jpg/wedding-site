@@ -12,63 +12,46 @@ export default function About() {
         <div className="min-h-screen">
 
             {/* Hero */}
-            <section className="pt-24 md:pt-32 pb-20 md:pb-24">
+            <section className="pt-24 md:pt-32 pb-16 md:pb-20">
                 <div className="container-custom">
-                    <div className="max-w-3xl mx-auto text-center">
+                    <div className="max-w-2xl mx-auto text-center">
                         <h1 className="heading-xl mb-10">About</h1>
-                        <p className="text-lg md:text-xl text-neutral-600 mb-12 leading-relaxed">
+                        <p className="text-lg md:text-xl text-neutral-600 mb-10 leading-relaxed">
                             Wedding photographer based in Hamburg, working across Europe.
                         </p>
-                        <div className="max-w-2xl mx-auto space-y-6 text-lg md:text-xl text-neutral-700 leading-relaxed">
+                        <div className="max-w-xl mx-auto space-y-6 text-lg md:text-xl text-neutral-700 leading-relaxed">
                             <p>
-                                For five years, I&apos;ve photographed people in environments where timing, energy, and trust matter. Weddings are no different.
+                                I&apos;m Elizabeth. For five years, I&apos;ve photographed people in environments where timing, energy, and trust matter. Weddings are no different.
                             </p>
                             <p>
                                 I don&apos;t chase trends. I pay attention — to people, to space, to what&apos;s actually happening.
                             </p>
                         </div>
-                        <div className="w-full max-w-xs mx-auto h-px bg-neutral-200 mt-16"></div>
-                    </div>
-                </div>
-            </section>
-
-            {/* Experience */}
-            <section className="py-20 md:py-28 border-t border-neutral-200">
-                <div className="container-custom">
-                    <div className="max-w-xl mx-auto text-center mb-14">
-                        <h2 className="heading-md">Experience</h2>
-                        <div className="editorial-rule my-6"></div>
-                    </div>
-                    <div className="max-w-2xl mx-auto space-y-6 text-lg text-neutral-700 text-center">
-                        <p>5 years of professional photography</p>
-                        <p>Events + portrait background</p>
-                        <p>Based in Germany — available across Europe</p>
-                        <p>English, Ukrainian, Russian — conversational German</p>
                     </div>
                 </div>
             </section>
 
             {/* Working with me */}
-            <section className="py-24 md:py-40 border-t border-neutral-200">
+            <section className="py-20 md:py-32 border-t border-neutral-200">
                 <div className="container-custom">
-                    <div className="max-w-6xl mx-auto px-6">
+                    <div className="max-w-5xl mx-auto px-6">
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 items-center">
                             {/* Text Block */}
-                            <div className="order-2 md:order-1 max-w-lg">
-                                <h2 className="heading-md mb-10">Working with me</h2>
-                                <div className="space-y-5 text-base md:text-lg text-neutral-700 leading-relaxed">
+                            <div className="order-2 md:order-1">
+                                <h2 className="heading-md mb-8">Working with me</h2>
+                                <div className="space-y-4 text-base md:text-lg text-neutral-700 leading-relaxed">
                                     <p>• You&apos;ll know when guidance is needed</p>
                                     <p>• You&apos;ll have space when it&apos;s not</p>
                                     <p>• Your day won&apos;t feel staged</p>
                                     <p>• The images won&apos;t feel temporary</p>
-                                    <p className="pt-6 text-neutral-900">
+                                    <p className="pt-4 text-neutral-900">
                                         Photography should feel natural in the moment — and intentional in memory.
                                     </p>
                                 </div>
                             </div>
                             {/* Image */}
                             <div className="order-1 md:order-2">
-                                <div className="relative w-full aspect-[4/5] max-w-lg mx-auto overflow-hidden border border-neutral-200">
+                                <div className="relative w-full aspect-[4/5] max-w-md mx-auto overflow-hidden border border-neutral-200">
                                     <Image
                                         src="/images/about/about-01.jpg"
                                         alt="Elizabeth Holiarchuk with camera"
@@ -76,7 +59,7 @@ export default function About() {
                                         className="object-cover"
                                         style={{ objectPosition: 'center' }}
                                         quality={90}
-                                        sizes="(max-width: 768px) 92vw, 520px"
+                                        sizes="(max-width: 768px) 92vw, 480px"
                                         priority
                                     />
                                 </div>
@@ -86,8 +69,24 @@ export default function About() {
                 </div>
             </section>
 
+            {/* Experience */}
+            <section className="py-16 md:py-24 border-t border-neutral-200">
+                <div className="container-custom">
+                    <div className="max-w-xl mx-auto text-center mb-12">
+                        <h2 className="heading-md">Experience</h2>
+                        <div className="editorial-rule my-6"></div>
+                    </div>
+                    <div className="max-w-2xl mx-auto space-y-5 text-lg text-neutral-700 text-center">
+                        <p>5 years of professional photography</p>
+                        <p>Events + portrait background</p>
+                        <p>Based in Germany — available across Europe</p>
+                        <p>English, Ukrainian, Russian — conversational German</p>
+                    </div>
+                </div>
+            </section>
+
             {/* CTA */}
-            <section className="py-24 md:py-32 border-t border-neutral-200">
+            <section className="py-20 md:py-28 border-t border-neutral-200">
                 <div className="container-custom">
                     <div className="max-w-2xl mx-auto text-center">
                         <h2 className="text-2xl md:text-3xl font-serif font-light text-neutral-900 mb-6">
@@ -100,7 +99,7 @@ export default function About() {
                             Inquire
                         </Link>
                         <p className="text-sm text-neutral-500 mt-6">
-                            Or email: <a href="mailto:hello@elizabethholiarchuk.com" className="underline hover:text-neutral-900 transition-colors">hello@elizabethholiarchuk.com</a>
+                            Or email: <a href="mailto:hello@lizaholiarchu.com" className="underline hover:text-neutral-900 transition-colors">hello@lizaholiarchu.com</a>
                         </p>
                     </div>
                 </div>

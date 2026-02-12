@@ -35,10 +35,10 @@ export default function ContactForm() {
                     message: ''
                 })
             } else {
-                alert('There was a problem sending your message. Please try again or email me directly at hello@elizabethholiarchuk.com')
+                alert('There was a problem sending your message. Please try again or email me directly at hello@lizaholiarchu.com')
             }
         } catch (error) {
-            alert('There was a problem sending your message. Please try again or email me directly at hello@elizabethholiarchuk.com')
+            alert('There was a problem sending your message. Please try again or email me directly at hello@lizaholiarchu.com')
         }
     }
 
